@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		13F1BF11297646BE008201B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F1BF10297646BE008201B6 /* AppDelegate.swift */; };
 		13F1BF13297646BE008201B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F1BF12297646BE008201B6 /* SceneDelegate.swift */; };
-		13F1BF15297646BE008201B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F1BF14297646BE008201B6 /* ViewController.swift */; };
+		13F1BF15297646BE008201B6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F1BF14297646BE008201B6 /* MainViewController.swift */; };
 		13F1BF18297646BE008201B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F1BF16297646BE008201B6 /* Main.storyboard */; };
 		13F1BF1A297646BF008201B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F1BF19297646BF008201B6 /* Assets.xcassets */; };
 		13F1BF1D297646BF008201B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F1BF1B297646BF008201B6 /* LaunchScreen.storyboard */; };
+		13F1BF27297646E7008201B6 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F1BF26297646E7008201B6 /* Coordinator.swift */; };
+		13F1BF29297647C4008201B6 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F1BF28297647C4008201B6 /* AppCoordinator.swift */; };
+		13F1BF2C29764D1F008201B6 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F1BF2B29764D1F008201B6 /* LoginCoordinator.swift */; };
+		13F1BF2E29764DC9008201B6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F1BF2D29764DC9008201B6 /* LoginViewController.swift */; };
+		13F1BF3129765927008201B6 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F1BF3029765927008201B6 /* MainCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		13F1BF0D297646BE008201B6 /* Coordinator-ByZedd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coordinator-ByZedd.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F1BF10297646BE008201B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13F1BF12297646BE008201B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		13F1BF14297646BE008201B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13F1BF14297646BE008201B6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		13F1BF17297646BE008201B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13F1BF19297646BF008201B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13F1BF1C297646BF008201B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13F1BF1E297646BF008201B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F1BF26297646E7008201B6 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		13F1BF28297647C4008201B6 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		13F1BF2B29764D1F008201B6 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		13F1BF2D29764DC9008201B6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		13F1BF3029765927008201B6 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,44 @@
 		13F1BF0F297646BE008201B6 /* Coordinator-ByZedd */ = {
 			isa = PBXGroup;
 			children = (
+				13F1BF2A29764A21008201B6 /* Login */,
+				13F1BF25297646D7008201B6 /* Main */,
+				13F1BF24297646CF008201B6 /* App */,
 				13F1BF10297646BE008201B6 /* AppDelegate.swift */,
 				13F1BF12297646BE008201B6 /* SceneDelegate.swift */,
-				13F1BF14297646BE008201B6 /* ViewController.swift */,
 				13F1BF16297646BE008201B6 /* Main.storyboard */,
 				13F1BF19297646BF008201B6 /* Assets.xcassets */,
 				13F1BF1B297646BF008201B6 /* LaunchScreen.storyboard */,
 				13F1BF1E297646BF008201B6 /* Info.plist */,
 			);
 			path = "Coordinator-ByZedd";
+			sourceTree = "<group>";
+		};
+		13F1BF24297646CF008201B6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				13F1BF26297646E7008201B6 /* Coordinator.swift */,
+				13F1BF28297647C4008201B6 /* AppCoordinator.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		13F1BF25297646D7008201B6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				13F1BF14297646BE008201B6 /* MainViewController.swift */,
+				13F1BF3029765927008201B6 /* MainCoordinator.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		13F1BF2A29764A21008201B6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				13F1BF2D29764DC9008201B6 /* LoginViewController.swift */,
+				13F1BF2B29764D1F008201B6 /* LoginCoordinator.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +177,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13F1BF15297646BE008201B6 /* ViewController.swift in Sources */,
+				13F1BF2E29764DC9008201B6 /* LoginViewController.swift in Sources */,
+				13F1BF3129765927008201B6 /* MainCoordinator.swift in Sources */,
+				13F1BF2C29764D1F008201B6 /* LoginCoordinator.swift in Sources */,
+				13F1BF27297646E7008201B6 /* Coordinator.swift in Sources */,
+				13F1BF15297646BE008201B6 /* MainViewController.swift in Sources */,
+				13F1BF29297647C4008201B6 /* AppCoordinator.swift in Sources */,
 				13F1BF11297646BE008201B6 /* AppDelegate.swift in Sources */,
 				13F1BF13297646BE008201B6 /* SceneDelegate.swift in Sources */,
 			);
